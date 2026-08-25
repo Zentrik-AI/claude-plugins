@@ -1,8 +1,8 @@
 # Zentrik plugin for Claude Code
 
-Connects Claude to the product context your team keeps in [Zentrik](https://zentrik.ai): customer signals, insights, ideas, opportunities, initiatives, accounts, OKRs, product context, personas, and feature maps.
+Connects Claude to the product context your team keeps in [Zentrik](https://zentrik.ai): customer signals, insights, ideas, opportunities, initiatives, Studies, accounts, OKRs, product context, personas, and feature maps.
 
-The plugin bundles the production Zentrik remote MCP connector with three workflow skills.
+The plugin bundles the production Zentrik remote MCP connector with four workflow skills.
 
 ## Install
 
@@ -31,6 +31,7 @@ You get back the initiative behind the work, what customers actually said, and t
 | `/zentrik:brief-product-work` | Briefs the work in front of you with the decisions, customer evidence, and open questions the workspace already holds, each attributed to a record ID. Reads only, so it needs no approval and works for read-only roles. |
 | `/zentrik:set-up-product-workspace` | Inventories the connected workspace, asks for the smallest missing set of first-party sources, routes each one to the correct Zentrik surface, applies only approved changes, and returns a setup receipt with tool-returned IDs and the next highest-value actions. |
 | `/zentrik:import-product-evidence` | Imports supplied calls, tickets, reviews, feedback, or research as evidence, one coherent source per call, with a preview and approval step for batches or ambiguous metadata. |
+| `/zentrik:manage-product-study` | Plans one private Study from an Idea or Initiative, refines its activities safely, reviews aggregate response coverage, and generates evidence-grounded draft findings for human review. |
 
 Claude also invokes them automatically when the task matches. Every skill reads before it writes, asks for approval before mutating a workspace, and reports what a tool actually returned rather than claiming success.
 

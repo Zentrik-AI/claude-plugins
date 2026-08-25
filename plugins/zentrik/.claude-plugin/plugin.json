@@ -2,8 +2,8 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "zentrik",
   "displayName": "Zentrik",
-  "version": "1.2.0",
-  "description": "Bring your team's product decisions and customer evidence into Claude Code.",
+  "version": "1.3.0",
+  "description": "Bring product decisions, customer evidence, and research Studies into Claude Code.",
   "author": {
     "name": "Zentrik",
     "email": "support@zentrik.ai",
