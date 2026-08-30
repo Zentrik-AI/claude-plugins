@@ -57,6 +57,15 @@ A Zentrik account and membership in at least one Zentrik workspace. No API key.
 
 Briefing is worth most against a workspace that already holds product context or Discovery data. An empty workspace connects fine and Claude will tell you plainly that there is nothing to retrieve rather than filling the gap with generic advice; `set-up-product-workspace` exists for exactly that case.
 
+## Validation
+
+Validate marketplace metadata, plugin resources, MCP configuration, and skill
+frontmatter before publishing:
+
+```bash
+node scripts/validate-plugin.mjs
+```
+
 ## Documentation and support
 
 - Connector setup guide: https://zentrik.ai/docs/integrations/mcp-claude
